@@ -1,1 +1,1 @@
-# http://mfong16.github.io/islt_7310
+# mfong16.github.io/islt_7310
