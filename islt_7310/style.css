@@ -1,2 +1,18 @@
 
-h1 {color: #4B0082;}
+h1 {color: #141085;}
+
+
+w3b ul li {
+    display: block;
+    background-color: #7E7AEB;
+    list-style-type: none;
+    margin:0px;
+    padding: 25px, 25px, 25px, 25px;
+}
+
+t3xt ul li {
+display: block;
+list-style-type: none;
+background-color: #E1E0FF;
+
+}

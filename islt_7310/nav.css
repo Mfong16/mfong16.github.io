@@ -1,8 +1,8 @@
 
 nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: 0px;
 }
 
     nav>ul li {
@@ -11,16 +11,18 @@ nav ul {
         font-weight: bold;
         color: #E1E0FF;
         float: left;
+        margin: auto;
         }
 
 
     nav a {
- text-decoration: none;
+text-decoration: none;
 display: inline-block;
 border: 2px solid #E1E0FF;
 padding: 15px 15px 15px 15px;
 width: 150px;
-margin: 2px;
+margin: auto;
+text-align: center;
 }
 
 nav a:link{
@@ -47,4 +49,30 @@ float:none;
 
 nav>ul>li:hover>ul{
 display: block;
+}
+nav header {
+    list-style-type: none;
+    display: block;
+    background-color: #E1E0FF;
+    text-align: center;
+    padding: 1px;
+    width: 350px;
+    margin: auto;
+}
+nav p {
+    list-style-type: none;
+    display: block;
+    background-color: #E1E0FF;
+    text-align: center;
+    padding: 5px;
+    margin: 25px;
+}
+
+nav div {
+    list-style-type: none;
+    display:block;
+    background-color: #7E7AEB;
+    padding: 1px;
+    margin: 25px;
+    
 }
