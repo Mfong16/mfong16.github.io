@@ -1,18 +1,54 @@
 
 h1 {color: #141085;}
 
+[class^="griditem"] {
+   text-align: center;
+ }
+ 
+ .t3xtbox {
+   display: grid;
+   background-color:  #7E7AEB;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(5, 200px);
+   grid-auto-flow: dense;
+   grid-gap: 5px;
+   padding: 10px;
+    margin: 20px;
+  }
+ 
+ .menu {   
+    grid-row: 1;
+    margin:auto;
+    grid-column: 1/ span 3; 
 
-w3b ul li {
-    display: block;
-    background-color: #7E7AEB;
-    list-style-type: none;
-    margin:0px;
-    padding: 25px, 25px, 25px, 25px;
+ }
+ 
+ .title {
+    grid-column: 2; 
+    grid-row: 2;
+   background-color: #E1E0FF;
+   margin: auto;
+   width: 350px;
+   padding: 0px;
+ }
+ 
+ .context {
+    grid-column: 1/ span 3; 
+    grid-row: 2/span 4;
+   background-color: #E1E0FF;
+   padding: 5px;
+   margin: auto;
+   font-size: 25px;
+
 }
 
-t3xt ul li {
-display: block;
-list-style-type: none;
-background-color: #E1E0FF;
-
-}
+ 
+ .footer {
+    grid-column: 2; 
+    grid-row: 5;
+   padding: 5px;
+   margin: auto;
+   font-size: 25px;
+ }
+ 
+ 
