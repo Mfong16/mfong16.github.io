@@ -88,11 +88,19 @@ h1 {color: #141085;}
      "menu"
       "title"
       "content";
-      grid-auto-flow: dense;
       grid-gap: 5px;
       padding: 10px;
        margin: 20px;
-       justify-content: center;
+      justify-content: center;
+      height:100%;
+      width:100%;
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      overflow-wrap: anywhere;
+      align-content: center;
+      position: relative;
 
      }
  
@@ -100,7 +108,6 @@ h1 {color: #141085;}
      grid-area:menu;
        margin: auto;
        padding: 10px;
-       position: relative;
     }
     
     .title {
@@ -108,6 +115,7 @@ h1 {color: #141085;}
       background-color: #E1E0FF;
       margin: auto;
       padding: 25px;
+      overflow-wrap: anywhere;
     }
     
     .context {
@@ -117,7 +125,6 @@ h1 {color: #141085;}
       margin: auto;
       position: relative;
       font-size: 25px;
-      overflow: hidden;
    
    }
    
