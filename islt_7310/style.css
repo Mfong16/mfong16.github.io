@@ -1,5 +1,16 @@
 
+@font-face { 
+
+   font-family: Avenir;
+   
+   src: url("../islt_7310/Avenir-Roman.otf"); /*remember this is how we link to files in CSS!*/
+   
+   }
+
+p{font-family: Avenir;}
+
 h1 {color: #141085;}
+h3{ color:#141085;}
 @media(min-width:850px){
 [class^="griditem"] {
    text-align: center;
@@ -40,6 +51,7 @@ h1 {color: #141085;}
    width: 350px;
    padding: 0px;
    position: relative;
+   font-family: Georgia;
  }
  
  .context {
@@ -92,16 +104,12 @@ h1 {color: #141085;}
       padding: 10px;
        margin: 20px;
       justify-content: center;
-      height:100%;
-      width:100%;
+
       text-align: center;
       display: flex;
       flex-wrap: wrap;
       align-content: center;
-      overflow-wrap: anywhere;
-      align-content: center;
       position: relative;
-
      }
  
     .menu {   
@@ -135,4 +143,25 @@ h1 {color: #141085;}
      margin: auto;
      font-size: 25px;
    }
+}
+
+@media print {
+   #logo,
+   .menu,
+
+img {
+      display:none;}
+body{
+   
+   background: none !important;
+   color:black !important;
+   margin: 1px !important;
+}
+
+h1{color:black;}
+h3{color: black;}
+a {display: none;}
+p{font-size: 20px;}
+li{font-size:18px;}
+blockquote{font-size:21px;}
 }
