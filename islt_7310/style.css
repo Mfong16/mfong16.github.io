@@ -74,6 +74,10 @@ h3{ color:#141085;}
    font-size: 20px;
    position: relative;
    text-align: center;
+   color:#E1E0FF;
+
+   background-image: url("../islt_7310/Welcome.jpg");
+   background-size: cover;
 }}
 
 @media(max-width:850px){
