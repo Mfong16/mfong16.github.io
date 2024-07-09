@@ -78,6 +78,12 @@ h3{ color:#141085;}
 
    background-image: url("../islt_7310/Welcome.jpg");
    background-size: cover;
+}
+.iframe-place{
+   display: flex;
+     justify-content: center;
+    align-items: center;
+    border: 3px;
 }}
 
 @media(max-width:850px){
@@ -147,11 +153,20 @@ h3{ color:#141085;}
      margin: auto;
      font-size: 25px;
    }
+.iframe-place{
+   display: flex;
+     justify-content: center;
+    align-items: center;
+    border: 3px;
+}
+
+
 }
 
 @media print {
    #logo,
    .menu,
+   .iframe-place,
 
 img {
       display:none;}
@@ -165,7 +180,8 @@ body{
 h1{color:black;}
 h3{color: black;}
 a {display: none;}
-p{font-size: 20px;}
-li{font-size:18px;}
-blockquote{font-size:21px;}
+p{font-size: 18px;}
+li{font-size:15px;}
+blockquote{font-size:15px;}
 }
+
