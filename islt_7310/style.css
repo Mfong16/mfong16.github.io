@@ -75,6 +75,15 @@ h3{ color:#141085;}
 
    
 }
+.Xcontext {
+   grid-column: 1/ span 3; 
+   grid-row: 3/ span 5;
+  padding: 5px;
+  margin: auto;
+  font-size: 20px;
+  position: relative;
+}
+
 .Acontext {
    grid-column: 1/ span 3; 
    grid-row: 4/ span 5;
@@ -234,7 +243,14 @@ h3{ color:#141085;}
       
    }
    
-   
+   .Xcontext {
+      grid-column: 1/ span 3; 
+      grid-row: 3/ span 5;
+     padding: 5px;
+     margin: auto;
+     font-size: 20px;
+     position: relative;
+   }
    .Acontext {
       grid-column: 1/ span 3; 
       grid-row: 4/ span 8;
@@ -401,6 +417,14 @@ h3{ color:#141085;}
       font-size: 25px;
    
    }
+   .Xcontext {
+      grid-column: 1/ span 3; 
+      grid-row: 3/ span 5;
+     padding: 5px;
+     margin: auto;
+     font-size: 20px;
+     position: relative;
+   }
    .Acontext {
       grid-column: 1/ span 3; 
       grid-row: 4/ span 8;
@@ -518,3 +542,24 @@ transition: width 0.3s linear 0s; z-index:10;
    width: 200px;
 }
 
+table{
+   border-collapse:collapse;
+}
+
+table th{
+   background-color: #7363b0;
+   color: #E1E0FF;
+}
+
+table td{
+
+   background-color: #E1E0FF;
+   padding: 10px;
+   border:2px solid #7363b0;
+   text-align: center;
+}
+
+table tr:nth-child(odd) td{
+   background-color: #acaaed;
+
+}
