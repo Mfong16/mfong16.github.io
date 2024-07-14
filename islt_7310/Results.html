@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+               <meta charset="utf-8">
+               <title>Results</title>
+</head>
+<body>
+    <div id="results"></div>
+    <a href="../islt_7310/Contact.html">Back to Form</a>
+    <script>
+        const resultsList = document.getElementById('results')
+        new URLSearchParams(window.location.search).forEach((value,
+            name) => {
+                resultsList.append(`${name}: ${value}`)
+                resultsList.append(document.createElement(`br`))
+            })
+    </script>
+<footer>
+<ul style="list-style-type: none;">
+    <li>Michelle Fong</li>
+<li><a href="mailto:Mrfynn@umsystem.edu"></a>
+        <img src="../islt_7310/Email_Img.ico" title="email"> Mrfynn@umsystem.edu</li>
+<li><a href="../islt_7310/Contact"></a>
+    <img src="../islt_7310/Phone_Img.ico" alt="background:none">  1+888-888-8888</li>
+    <li>Copyright (c) 2024</li>
+</ul></footer>
+</body>
+
+</html>
