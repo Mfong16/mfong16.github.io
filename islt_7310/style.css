@@ -82,6 +82,7 @@ h3{ color:#141085;}
   margin: auto;
   font-size: 20px;
   position: relative;
+  overflow: scroll;
 }
 
 .Acontext {
@@ -250,6 +251,7 @@ h3{ color:#141085;}
      margin: auto;
      font-size: 20px;
      position: relative;
+     overflow: scroll;
    }
    .Acontext {
       grid-column: 1/ span 3; 
@@ -424,6 +426,7 @@ h3{ color:#141085;}
      margin: auto;
      font-size: 20px;
      position: relative;
+     overflow: scroll;
    }
    .Acontext {
       grid-column: 1/ span 3; 
